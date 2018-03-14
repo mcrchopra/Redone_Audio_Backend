@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="SimpleBackend:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleBackend_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AudioBackend/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AudioBackend" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/gson-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gson-2.6.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/google-cloud-storage-1.12.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/appengine-gcs-client-0.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/guava-20.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/joda-time-2.9.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-oauth-client-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-oauth-client-appengine-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-oauth-client-java6-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-oauth-client-jetty-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-oauth-client-servlet-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-xml-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-protobuf-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-jdo-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-jackson2-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-jackson-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-gson-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-appengine-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/google-http-client-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/httpclient-4.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/google-oauth-java-client/libs/httpcore-4.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/google-http-client-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/google-api-client-1.23.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/google-http-client-appengine-1.23.0.jar" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

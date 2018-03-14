@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <!-- name must be unique across all gae backends -->
+    <!-- url will be 'name].appspot.com'             -->
+    <application>AudioServlet</application>
+    <version>1</version>
+    <threadsafe>true</threadsafe>
+
+    <automatic-scaling>
+        <max-concurrent-requests>10</max-concurrent-requests>
+        <min-pending-latency>automatic</min-pending-latency>
+        <max-pending-latency>40ms</max-pending-latency>
+        <min-idle-instances>1</min-idle-instances>
+        <max-idle-instances>automatic</max-idle-instances>
+    </automatic-scaling>
+
+    <!--
+  <manual-scaling>
+    <instances>1</instances>
+  </manual-scaling>
+  -->
+
+     <!-- Appengine Logging -->
+    <system-properties>
+        <property name = "java.util.logging.config.file" value = "WEB-INF/logging.properties"/>
+    </system-properties>
+
+</appengine-web-app>
